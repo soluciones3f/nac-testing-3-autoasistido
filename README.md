@@ -29,3 +29,57 @@ Fast-forward
  1 file changed, 9 insertions(+)
 ```
 
+## Agregar cambios para resguardar
+
+```bash
+$ git add TestUnitarios.md 
+$ git add tests/MiClase.groovy 
+$ git add tests/MiTest.groovy 
+$ git add tests/TestDeMiClase.groovy 
+```
+
+## Revisar cambios a resguardar
+
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   TestUnitarios.md
+	new file:   tests/MiClase.groovy
+	new file:   tests/MiTest.groovy
+	new file:   tests/TestDeMiClase.groovy
+```
+
+## Commit de los cambios
+
+```bash
+$ git commit -m "Creación de los test unitarios"
+[master 255a79a] Creación de los test unitarios
+ 4 files changed, 101 insertions(+)
+ create mode 100644 TestUnitarios.md
+ create mode 100644 tests/MiClase.groovy
+ create mode 100644 tests/MiTest.groovy
+ create mode 100644 tests/TestDeMiClase.groovy
+```
+
+## Subir los cambios al servidor
+
+```bash
+$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.44 KiB | 0 bytes/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To git@github.com:soluciones3f/nac-testing-3-autoasistido.git
+   54890e3..255a79a  master -> master
+```
+
+
+
+
+
