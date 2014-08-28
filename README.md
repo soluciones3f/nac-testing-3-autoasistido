@@ -1,6 +1,10 @@
 # Módulo 3 - Autoasistidos
 
+[![Build Status](https://travis-ci.org/soluciones3f/nac-testing-3-autoasistido.svg?branch=master)](https://travis-ci.org/soluciones3f/nac-testing-3-autoasistido)
+
 Proyecto para "jugar" con github en el marco de la capacitación de testing, módulo 3
+
+
 
 ## Clonar el repo
 
