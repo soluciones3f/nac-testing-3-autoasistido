@@ -1,6 +1,12 @@
 # Travis
 
-## Crear el proyecto
+## Configurar el proyecto
+
+El archivo ```.travis.yml``` contendrá la información de configuración usada por el travis. A saber:
+
+```
+language: groovy
+```
 
 ## Configurar Gradle
 
