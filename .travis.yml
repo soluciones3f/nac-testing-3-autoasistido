@@ -1,2 +1,8 @@
 language: groovy
 
+before_install:
+  apt-get update
+
+install:
+  apt-get install firefox
+
